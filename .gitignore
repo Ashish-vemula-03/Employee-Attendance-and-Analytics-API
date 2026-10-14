@@ -1,0 +1,31 @@
+# Environment and secrets (CRITICAL: Do not commit secrets)
+.env
+.env.*
+*.env
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Pytest and testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.~lock.*
+.DS_Store
